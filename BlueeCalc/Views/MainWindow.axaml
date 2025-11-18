@@ -1,0 +1,76 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:BlueeCalc.ViewModels"
+        x:DataType="vm:MainWindowViewModel"
+        mc:Ignorable="d"
+        Width="320" Height="420"
+        Background="#1e1e1e"
+        x:Class="BlueeCalc.Views.MainWindow">
+
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
+
+        <!-- Display -->
+        <TextBlock Text="{Binding Display}"
+                   FontSize="48"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   Foreground="White"
+                   Margin="0 0 0 20"/>
+
+        <!-- Buttons -->
+        <Grid Grid.Row="1"
+              RowDefinitions="*,*,*,*,*"
+              ColumnDefinitions="*,*,*,*">
+
+            <!-- Row 1 -->
+            <Button Content="C" Grid.Row="0" Grid.Column="0" Classes="clear"
+                    Command="{Binding ButtonPress}" CommandParameter="C"/>
+            <Button Content="/" Grid.Row="0" Grid.Column="1" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="/"/>
+            <Button Content="*" Grid.Row="0" Grid.Column="2" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="*"/>
+            <Button Content="-" Grid.Row="0" Grid.Column="3" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="-"/>
+
+            <!-- Row 2 -->
+            <Button Content="7" Grid.Row="1" Grid.Column="0" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="7"/>
+            <Button Content="8" Grid.Row="1" Grid.Column="1" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="8"/>
+            <Button Content="9" Grid.Row="1" Grid.Column="2" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="9"/>
+            <Button Content="+" Grid.Row="1" Grid.Column="3" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="+"/>
+
+            <!-- Row 3 -->
+            <Button Content="4" Grid.Row="2" Grid.Column="0" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="4"/>
+            <Button Content="5" Grid.Row="2" Grid.Column="1" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="5"/>
+            <Button Content="6" Grid.Row="2" Grid.Column="2" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="6"/>
+            <Button Content="=" Grid.Row="2" Grid.Column="3" Grid.RowSpan="2" Classes="equals"
+                    Command="{Binding ButtonPress}" CommandParameter="="/>
+
+            <!-- Row 4 -->
+            <Button Content="1" Grid.Row="3" Grid.Column="0" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="1"/>
+            <Button Content="2" Grid.Row="3" Grid.Column="1" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="2"/>
+            <Button Content="3" Grid.Row="3" Grid.Column="2" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="3"/>
+
+            <!-- Row 5 -->
+            <Button Content="0" Grid.Row="4" Grid.ColumnSpan="2" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="0"/>
+            <Button Content="." Grid.Row="4" Grid.Column="2" Classes="calcbtn"
+                    Command="{Binding ButtonPress}" CommandParameter="."/>
+        </Grid>
+    </Grid>
+</Window>

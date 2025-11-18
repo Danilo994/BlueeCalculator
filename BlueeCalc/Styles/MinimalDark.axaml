@@ -1,0 +1,52 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Styles.Resources>
+    <ResourceDictionary>
+      <!-- Paleta de cores -->
+      <Color x:Key="DarkBackground">#1E1E1E</Color>
+      <Color x:Key="DarkSurface">#252525</Color>
+      <Color x:Key="DarkBorder">#333333</Color>
+      <Color x:Key="DarkPrimary">#88C0D0</Color>
+      <Color x:Key="DarkText">#E5E9F0</Color>
+
+      <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource DarkBackground}" />
+      <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource DarkSurface}" />
+      <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource DarkBorder}" />
+      <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource DarkPrimary}" />
+      <SolidColorBrush x:Key="TextBrush" Color="{StaticResource DarkText}" />
+    </ResourceDictionary>
+  </Styles.Resources>
+
+  <!-- Estilo para janelas -->
+  <Style Selector="Window">
+    <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />
+  </Style>
+
+  <!-- Texto padrão -->
+  <Style Selector="TextBlock">
+    <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+    <Setter Property="FontSize" Value="14"/>
+  </Style>
+
+  <!-- Botões -->
+  <Style Selector="Button">
+    <Setter Property="Background" Value="{StaticResource SurfaceBrush}" />
+    <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}" />
+    <Setter Property="CornerRadius" Value="4" />
+    <Setter Property="Padding" Value="8 4" />
+  </Style>
+
+  <Style Selector="Button:pointerover">
+    <Setter Property="Background" Value="{StaticResource DarkBorder}" />
+  </Style>
+
+  <!-- TextBox -->
+  <Style Selector="TextBox">
+    <Setter Property="Background" Value="{StaticResource SurfaceBrush}" />
+    <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}" />
+  </Style>
+
+</Styles>

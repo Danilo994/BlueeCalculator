@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlueeCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02539b9b260c44dbe5c843ecfa6e13b7ca2d5833")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1422bb1635ed4cb9c40d4560d93ff33fea224640")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlueeCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlueeCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

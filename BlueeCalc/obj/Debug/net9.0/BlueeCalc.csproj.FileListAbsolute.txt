@@ -20,6 +20,7 @@
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Fonts.Inter.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.FreeDesktop.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Native.dll
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.ReactiveUI.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Remote.Protocol.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Skia.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Themes.Fluent.dll
@@ -27,9 +28,13 @@
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Win32.Automation.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.Win32.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Avalonia.X11.dll
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/DynamicData.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/HarfBuzzSharp.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/MicroCom.Runtime.dll
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/ReactiveUI.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/SkiaSharp.dll
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Splat.dll
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/System.Reactive.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/Tmds.DBus.Protocol.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/runtimes/win-arm64/native/av_libglesv2.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/runtimes/win-x64/native/av_libglesv2.dll
