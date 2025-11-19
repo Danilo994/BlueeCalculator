@@ -4,6 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <AssemblyName>BlueeCalc</AssemblyName>
+    <RootName>BlueeCalc</RootName>
   </PropertyGroup>
 
   <ItemGroup>

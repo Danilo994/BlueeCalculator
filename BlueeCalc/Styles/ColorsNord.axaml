@@ -1,0 +1,28 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  
+  <!-- Nord Palette -->
+  <Color x:Key="Nord0">#2E3440</Color>
+  <Color x:Key="Nord1">#3B4252</Color>
+  <Color x:Key="Nord2">#434C5E</Color>
+  <Color x:Key="Nord3">#4C566A</Color>
+  <Color x:Key="Nord4">#D8DEE9</Color>
+  <Color x:Key="Nord5">#E5E9F0</Color>
+  <Color x:Key="Nord6">#ECEFF4</Color>
+  <Color x:Key="Nord7">#8FBCBB</Color>
+  <Color x:Key="Nord8">#88C0D0</Color>
+  <Color x:Key="Nord9">#81A1C1</Color>
+  <Color x:Key="Nord10">#5E81AC</Color>
+  <Color x:Key="Nord11">#BF616A</Color>
+  <Color x:Key="Nord12">#D08770</Color>
+  <Color x:Key="Nord13">#EBCB8B</Color>
+  <Color x:Key="Nord14">#A3BE8C</Color>
+  <Color x:Key="Nord15">#B48EAD</Color>
+
+  <!-- Brushes -->
+  <SolidColorBrush x:Key="BgDark" Color="{DynamicResource Nord0}"/>
+  <SolidColorBrush x:Key="BgLight" Color="{DynamicResource Nord1}"/>
+  <SolidColorBrush x:Key="TextBrush" Color="{DynamicResource Nord6}"/>
+  <SolidColorBrush x:Key="AccentBrush" Color="{DynamicResource Nord8}"/>
+
+</ResourceDictionary>

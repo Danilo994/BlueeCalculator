@@ -6,7 +6,6 @@
         x:DataType="vm:MainWindowViewModel"
         mc:Ignorable="d"
         Width="320" Height="420"
-        Background="#1e1e1e"
         x:Class="BlueeCalc.Views.MainWindow">
 
     <Window.DataContext>
@@ -20,23 +19,21 @@
                    FontSize="48"
                    HorizontalAlignment="Right"
                    VerticalAlignment="Center"
-                   Foreground="White"
-                   Margin="0 0 0 20"/>
+                   Margin="10 10 20 20"/>
 
         <!-- Buttons -->
         <Grid Grid.Row="1"
               RowDefinitions="*,*,*,*,*"
-              ColumnDefinitions="*,*,*,*">
+              ColumnDefinitions="*,*,*,*"
+              RowSpacing="4"
+              ColumnSpacing="4"
+              Margin="10">
 
             <!-- Row 1 -->
-            <Button Content="C" Grid.Row="0" Grid.Column="0" Classes="clear"
+            <Button Content="C" Grid.Row="0" Grid.ColumnSpan="3" Classes="clear"
                     Command="{Binding ButtonPress}" CommandParameter="C"/>
-            <Button Content="/" Grid.Row="0" Grid.Column="1" Classes="op"
+            <Button Content="/" Grid.Row="0" Grid.Column="3" Classes="op"
                     Command="{Binding ButtonPress}" CommandParameter="/"/>
-            <Button Content="*" Grid.Row="0" Grid.Column="2" Classes="op"
-                    Command="{Binding ButtonPress}" CommandParameter="*"/>
-            <Button Content="-" Grid.Row="0" Grid.Column="3" Classes="op"
-                    Command="{Binding ButtonPress}" CommandParameter="-"/>
 
             <!-- Row 2 -->
             <Button Content="7" Grid.Row="1" Grid.Column="0" Classes="calcbtn"
@@ -45,8 +42,9 @@
                     Command="{Binding ButtonPress}" CommandParameter="8"/>
             <Button Content="9" Grid.Row="1" Grid.Column="2" Classes="calcbtn"
                     Command="{Binding ButtonPress}" CommandParameter="9"/>
-            <Button Content="+" Grid.Row="1" Grid.Column="3" Classes="op"
-                    Command="{Binding ButtonPress}" CommandParameter="+"/>
+            <Button Content="*" Grid.Row="1" Grid.Column="3" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="*"/>
+            
 
             <!-- Row 3 -->
             <Button Content="4" Grid.Row="2" Grid.Column="0" Classes="calcbtn"
@@ -55,8 +53,9 @@
                     Command="{Binding ButtonPress}" CommandParameter="5"/>
             <Button Content="6" Grid.Row="2" Grid.Column="2" Classes="calcbtn"
                     Command="{Binding ButtonPress}" CommandParameter="6"/>
-            <Button Content="=" Grid.Row="2" Grid.Column="3" Grid.RowSpan="2" Classes="equals"
-                    Command="{Binding ButtonPress}" CommandParameter="="/>
+            <Button Content="-" Grid.Row="2" Grid.Column="3" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="-"/>
+            
 
             <!-- Row 4 -->
             <Button Content="1" Grid.Row="3" Grid.Column="0" Classes="calcbtn"
@@ -65,12 +64,17 @@
                     Command="{Binding ButtonPress}" CommandParameter="2"/>
             <Button Content="3" Grid.Row="3" Grid.Column="2" Classes="calcbtn"
                     Command="{Binding ButtonPress}" CommandParameter="3"/>
+            <Button Content="+" Grid.Row="3" Grid.Column="3" Classes="op"
+                    Command="{Binding ButtonPress}" CommandParameter="+"/>
 
             <!-- Row 5 -->
             <Button Content="0" Grid.Row="4" Grid.ColumnSpan="2" Classes="calcbtn"
                     Command="{Binding ButtonPress}" CommandParameter="0"/>
             <Button Content="." Grid.Row="4" Grid.Column="2" Classes="calcbtn"
                     Command="{Binding ButtonPress}" CommandParameter="."/>
+            <Button Content="=" Grid.Row="4" Grid.Column="3" Classes="equals"
+                    Command="{Binding ButtonPress}" CommandParameter="="/>
+            
         </Grid>
     </Grid>
 </Window>

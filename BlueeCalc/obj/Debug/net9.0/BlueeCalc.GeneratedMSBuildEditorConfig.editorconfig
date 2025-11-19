@@ -24,6 +24,9 @@ build_property.EnableCodeStyleSeverity =
 [/mnt/dados/Git/BlueeCalculator/BlueeCalc/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/mnt/dados/Git/BlueeCalculator/BlueeCalc/Styles/ColorsNord.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/mnt/dados/Git/BlueeCalculator/BlueeCalc/Styles/MinimalDark.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
