@@ -1,3 +1,11 @@
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.csproj.AssemblyReference.cache
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/Avalonia/resources
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.AssemblyInfoInputs.cache
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.AssemblyInfo.cs
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.csproj.CoreCompileInputs.cache
+/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.sourcelink.json
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/BlueeCalc
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/BlueeCalc.deps.json
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/BlueeCalc.runtimeconfig.json
@@ -63,14 +71,6 @@
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.csproj.AssemblyReference.cache
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/Avalonia/resources
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.GeneratedMSBuildEditorConfig.editorconfig
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.AssemblyInfoInputs.cache
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.AssemblyInfo.cs
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.csproj.CoreCompileInputs.cache
-/mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.sourcelink.json
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.csproj.Up2Date
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/BlueeCalc.dll
 /mnt/dados/Git/BlueeCalculator/BlueeCalc/obj/Debug/net9.0/refint/BlueeCalc.dll

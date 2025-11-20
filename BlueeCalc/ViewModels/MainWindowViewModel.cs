@@ -13,6 +13,13 @@ namespace BlueeCalc.ViewModels
             set => this.RaiseAndSetIfChanged(ref _display, value);
         }
 
+        private string _expression = "";
+        public string Expression
+        {
+            get => _expression;
+            set => this.RaiseAndSetIfChanged(ref _expression, value);
+        }
+
         public CalculatorEngine Engine { get; } = new();
 
         public ReactiveCommand<string, Unit> ButtonPress { get; }
@@ -24,7 +31,9 @@ namespace BlueeCalc.ViewModels
 
         private void OnButtonPress(string value)
         {
-            Display = Engine.Input(value, Display);
+            var result = Engine.Input(value, Display ?? "0");
+            Display = result.Display;
+            Expression = result.Expression;
         }
     }
 }

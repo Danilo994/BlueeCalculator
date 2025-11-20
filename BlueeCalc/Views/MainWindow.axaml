@@ -15,11 +15,15 @@
     <Grid RowDefinitions="Auto,*" ColumnDefinitions="*">
 
         <!-- Display -->
+        <TextBlock Text="{Binding Expression}"
+                   FontSize="20"
+                   HorizontalAlignment="Right"
+                   Margin="0 8 20 0"/>
         <TextBlock Text="{Binding Display}"
                    FontSize="48"
                    HorizontalAlignment="Right"
                    VerticalAlignment="Center"
-                   Margin="10 10 20 20"/>
+                   Margin="10 25 20 20"/>
 
         <!-- Buttons -->
         <Grid Grid.Row="1"
